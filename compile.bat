@@ -1,1 +1,1 @@
-pyinstaller --onefile -w app.py
+pyinstaller --onefile -w app.py -n rdf

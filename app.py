@@ -4,7 +4,8 @@ import hashlib
 from os import listdir
 from os.path import isfile
 
-BUF_SIZE = 65536
+
+BUF_SIZE = 1024 * 1000 # 1 MB
 
 def get_all_files(path):
     files = []
